@@ -3,6 +3,8 @@ public class Carro{
     String cor;
     int portas;
     float valor;
+    Montadora[] montadora;
+    Origem[] origem;
 
     public static void main(String[] args){
         Carro c1 = new Carro();
