@@ -2,6 +2,7 @@ public class Camisa{
     String cor;
     String modelo;
     float valor;
+    Marca[] marca;
 
     public static void main(String[] args){
         Camisa c1 = new Camisa();
