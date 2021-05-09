@@ -4,6 +4,7 @@ public class Celular{
     float valor;
     String sistema;
     boolean garantia; 
+    Vendedor[] vendedor;
     public static void main(String[] args){
 
         Celular c1 = new Celular();
