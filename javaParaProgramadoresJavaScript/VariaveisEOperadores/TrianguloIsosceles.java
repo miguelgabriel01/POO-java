@@ -5,7 +5,7 @@ public class TrianguloIsosceles{
         int resposta;
 
         resposta = (base*altura)/2;
-        System.out.println("Resultado do valor do cubo:");
+        System.out.println("Resultado do valor de um triangulo isosceles:");
         System.out.println(resposta);
         System.out.println("***************************");
 
