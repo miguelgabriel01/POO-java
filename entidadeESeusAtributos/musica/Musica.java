@@ -3,6 +3,7 @@ public class Musica{
     String album;
     float duracao;
     int ano;
+    Banda[] banda;
     public static void main(String[] args){
 
         Musica m1 = new Musica();
