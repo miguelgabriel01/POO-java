@@ -2,7 +2,8 @@ public class Filme{
     String nome;
     String genero;
     int anoDeLancamento;
-
+    Diretor[] diretor;
+    Produtora[] produta;
     public static void main(String[] args){
         Filme f1 = new Filme();
         f1.nome = "Batman VS Superman - A origem da justiça";
