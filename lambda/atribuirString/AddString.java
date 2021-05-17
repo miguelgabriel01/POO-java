@@ -1,10 +1,10 @@
 public class AddString{
   public static void main(String[] args){
-    //exemplo com uma unica operação
+    //exemplo com uma unica instrução
     //Funcao ColocarSR = valor -> "Sr. " + valor;
     //System.out.println(ColocarSR.gerar("Miguel"));
 
-    //multiplas op
+    //multiplas instruções
     Funcao ColocarSR = valor ->{
      String valorComPrefixo = "Sr. " + valor;
      String valorComPrefixoEPonto = valorComPrefixo + ".";
